@@ -1,0 +1,1 @@
+export default function ResponderPanel({ responders = [] }) { return <div>{responders.map(r=><div className="responder" key={r.responder_id}><span className={r.status === "available" ? "dot" : "dot busy"}/><div><b>{r.name}</b><div className="small">{r.responder_type} · {r.status}</div></div></div>)}</div>; }

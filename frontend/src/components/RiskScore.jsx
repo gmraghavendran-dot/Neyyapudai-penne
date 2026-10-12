@@ -1,0 +1,1 @@
+export default function RiskScore({ score = 0 }) { const label = score >= 80 ? "Critical" : score >= 60 ? "Elevated" : score >= 40 ? "Watch" : "Stable"; return <div><b>{Number(score).toFixed(1)}</b><span className="small"> · {label}</span></div>; }

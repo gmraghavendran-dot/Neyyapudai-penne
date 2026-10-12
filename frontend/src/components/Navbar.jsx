@@ -1,0 +1,1 @@
+export default function Navbar({ title = "Neyyapudaipenne" }) { return <header><div className="brand"><span className="shield">✦</span><div><b>{title}</b><small>Real-Time Women Safety Intelligence</small></div></div></header>; }
